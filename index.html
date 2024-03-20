@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Decodificador</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Gheizla Santos">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src=".//Imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" id="txt01" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informacoes">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-Encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-Desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="20 " rows="10 "></textarea>
+            <button class="btn-Copiar" onclick="copiarTexto()">Copiar</button>
+            <button class="btn-Limpar" onclick="Limpar()">Limpar</button>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
